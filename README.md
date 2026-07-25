@@ -37,11 +37,19 @@ The project is built with a modern full-stack architecture using React.js for th
 - Automatic 24-hour credit reset
 - Usage tracking
 
-### 📈 Resume Comparison
-- Compare previous and improved resume versions
-- Track resume improvement progress
+## 📊 Resume Comparison (In Progress)
 
----
+ResumeAI includes an upcoming resume comparison system that helps users understand how their resume improves over time.
+
+### Planned Features
+
+- Compare previous CV and newly uploaded CV
+- Compare ATS score improvements
+- Detect newly added skills
+- Identify removed or missing sections
+- Show AI-generated improvement suggestions
+- Track resume growth history
+
 
 # 🛠️ Tech Stack
 
@@ -189,15 +197,6 @@ php artisan storage:link
 
 ---
 
-## Add AI API Key
-
-Add your Groq API key:
-
-```
-GROQ_API_KEY=your_api_key_here
-```
-
----
 
 Run Laravel server:
 
